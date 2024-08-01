@@ -3,11 +3,11 @@ return {
 "Samy_0fficiel2021",
 "imthebest2001111",
 "THEPERFECTHUBV2",
-"GGMAFRIENDSFROMRUSSE",--Discord : 1209931481950986271
-"Scottalphaqqq", --Discord : 807012566844964884 (2x Accunt "akitsh")
-"Majki2656",--Discord : 672120238212382751
---"raf33670",--Discord : 1175537037366010048 (Did not paid)
-"megadra89", --Discord : 1143656423495045181 (Free Trial)
---"ibyenzo",--Discord : 1072031415409061989 (Random guys)
+"GGMAFRIENDSFROMRUSSE",
+"Scottalphaqqq",
+"Majki2656",
+--"raf33670",
+"megadra89",
+--"ibyenzo",
 "akitsh",
 }
