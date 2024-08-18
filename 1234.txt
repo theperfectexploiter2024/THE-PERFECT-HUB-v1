@@ -6,9 +6,7 @@ return {
 "GGMAFRIENDSFROMRUSSE",
 "Scottalphaqqq",
 "Majki2656",
---"raf33670",
 "megadra89",
---"ibyenzo",
 "akitsh",
 "AZERTYLEBEST15555",
 }
