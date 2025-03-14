@@ -1,34 +1,3 @@
-# Introduction
-This Documentation Is Last Updated for Prerelease Beta 6.1
-## Why Choose Luna?
-  Reliable And Stable  
-  Beautful Design  
-  Open Sourced  
-  Amazing Features like key system, custom configs, prebuilt tabs and more!  
-  Smooth And Excellent Performance  
-  
-*Now Let's Get Started, Shall We?*
-
-**Also hope shlex will add this docs.sirius.menu but its fine here lol**  
-
-***You may use the github MD Sidebar to navigate through the documentation***
-
-
-# Documentation For Luna
-## Booting The Library
-
-> This loads up the library to use our Elements. No parameters required
-
-> [!NOTE]
-> Luna Gives The User The Option To Load, Save And Autoload Their Own Configurations So manually loading them isnt required
-
-## Windows
-#### Creating The Window
-Sadly, Unlike Older Projects, Luna Can't Have Multiple Windows. But It's Fine! Right?  
-
-> [!IMPORTANT]
-> Luna's Glassmorphism Requires Graphics Level 8 Or Above
-
 ```lua
 local Window = Luna:CreateWindow({
 	Name = "Luna Example Window", -- This Is Title Of Your Window
@@ -59,21 +28,7 @@ local Window = Luna:CreateWindow({
 	}
 })
 ```
-> [!IMPORTANT]
-> Make sure to always add this code ``Luna:LoadAutoloadConfig()`` at the bottom of your script!
-> Luna will now automatically load up your saved configuration 😄
 
-#### Luna Icons
-Luna Uses Custom Icons so u do not have to find ans upload your own!
-We have 2 sources ; [Lucide](https://github.com/latte-soft/lucide-roblox/blob/master/md/icon-index.md) and [Material](https://fonts.google.com/icons?icon.query=home&icon.set=Material+Icons&icon.style=Sharp).  
-Simply grab the name of your icon and paste it into the icon parameter. If you're using Lucide, replace spaces with dashes (-) and if you're on Material, replace spaces with underscores (_)  
-Make sure to change ImageSource to the source you're using.
-we did not skid this from rayfield, pretty sure rayfield skidded this from us tho.
-
-However, If you would still like to use your own custom icons, You may do so by changing the Icon value to the ID of ur image (DO NOT INCLUDE rbxassetid://) and Changing ImageSource to Custom.
-
-#### Creating A Tab
-This will show u how to create the instance of a tab. I reccomend storing them in a table but it is fine for the docs.
 ```lua
 local Tab = Window:CreateTab({
 	Name = "Tab Example",
